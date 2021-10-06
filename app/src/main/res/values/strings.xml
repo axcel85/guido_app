@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- home strings -->
+
+	<string name="app_name">GUIDO</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="enter_your_pin_string">Enter your PIN</string>
+	<string name="value1_string">Value1</string>
+	<string name="parameter1_string">Parameter1</string>
+	<string name="value2_string">Value2</string>
+	<string name="parameter2_string">Parameter2</string>
+	<string name="value3_string">Value3</string>
+	<string name="parameter3_string">Parameter3</string>
+	<string name="value4_string">Value4</string>
+	<string name="parameter4_string">Parameter4</string>
+	<string name="select_all_parameter_string">Select all parameter</string>
+</resources>

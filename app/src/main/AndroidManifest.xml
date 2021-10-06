@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="exportkit.xd" >
+
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application
+		android:allowBackup="true"
+		android:theme="@style/AppTheme"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:usesCleartextTraffic="true">
+		<meta-data
+			android:name="com.google.android.gms.version"
+			android:value="@integer/google_play_services_version" />
+
+		<meta-data
+			android:name="com.google.android.geo.API_KEY"
+			android:value="${MAPS_API_KEY}" />
+
+		<activity
+		android:name=".home_activity"
+		android:configChanges="orientation|keyboardHidden|screenSize"
+		android:label="@string/app_name"  >
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+			<activity android:name="exportkit.xd.screen4_activity"></activity>
+			<activity android:name="exportkit.xd.screen3_activity"></activity>
+			<activity android:name="exportkit.xd.screen2_activity"></activity>
+			<activity android:name="exportkit.xd.screen1_activity"></activity>
+	</application>
+
+
+
+
+</manifest>
+	
+	

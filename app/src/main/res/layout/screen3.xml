@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="360dp"
+	android:layout_height="702dp">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		home
+     *	@date 		1633139826791
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+
+			<RelativeLayout
+				android:id="@+id/page_screen3_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__screen3_ek2"
+					android:layout_width="360dp"
+					android:layout_height="702dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__screen3_ek2_shape" />
+
+				<ImageView
+					android:id="@+id/grafik_1_ek2"
+					android:layout_width="541dp"
+					android:layout_height="977dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="-55dp"
+					android:contentDescription="grafik_1_ek2"
+					android:src="@drawable/grafik_1_ek2" />
+
+
+				<RelativeLayout
+					android:id="@+id/group_4_ek2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="49dp">
+
+					<View
+						android:id="@+id/rectangle_1_ek2"
+						android:layout_width="360dp"
+						android:layout_height="90dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:alpha="0.89999997615814"
+						android:background="@drawable/rectangle_1_ek2_shape" />
+
+					<ImageView
+						android:id="@+id/brilhon_1_ek2"
+						android:layout_width="340dp"
+						android:layout_height="90dp"
+						android:layout_marginStart="10dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="brilhon_1_ek2"
+						android:src="@drawable/brilhon_1_ek2" />
+
+				</RelativeLayout>
+
+
+				<fragment
+					android:id="@+id/map"
+					android:name="com.google.android.gms.maps.SupportMapFragment"
+					android:layout_width="match_parent"
+					android:layout_height="600dp"
+					android:layout_alignParentBottom="true"
+					android:layout_marginTop="-80dp"
+					android:layout_marginBottom="320dp"
+					tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+
+				<View
+					android:id="@+id/rectangle_"
+					android:layout_width="360dp"
+					android:layout_height="59dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="157dp"
+					android:alpha="0.75"
+					android:background="@drawable/rectangle_15_shape" />
+
+				<ImageView
+					android:id="@+id/subtract_ek"
+					android:layout_width="42dp"
+					android:layout_height="42dp"
+					android:layout_marginStart="71dp"
+					android:layout_marginTop="165dp"
+					android:contentDescription="subtract_ek14"
+					android:src="@drawable/subtract_ek14" />
+
+				<ImageView
+					android:id="@+id/subtract_ek17"
+					android:layout_width="42dp"
+					android:layout_height="42dp"
+					android:layout_marginStart="304dp"
+					android:layout_marginTop="165dp"
+					android:contentDescription="subtract_ek15"
+					android:src="@drawable/subtract_ek15" />
+
+				<ImageView
+					android:id="@+id/subtract_ek18"
+					android:layout_width="42dp"
+					android:layout_height="42dp"
+					android:layout_marginStart="11dp"
+					android:layout_marginTop="165dp"
+					android:contentDescription="subtract_ek16"
+					android:src="@drawable/subtract_ek16" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		home
+	 *	@date 		1633139826791
+	 *	@title 		Page 1
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/screen4" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+
+			<RelativeLayout android:id="@+id/page_screen4_ek1"
+				android:layout_marginTop="0dp"
+				android:layout_marginStart="0dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				>
+
+				<View android:id="@+id/_bg__screen4_ek2"
+					android:background="@drawable/_bg__screen4_ek2_shape"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:layout_width="360dp"
+					android:layout_height="702dp" />
+
+				<ImageView android:id="@+id/grafik_1_ek1"
+					android:src="@drawable/grafik_1_ek1"
+					android:contentDescription="grafik_1_ek1"
+					 android:layout_marginStart="0dp"
+					android:layout_marginTop="-55dp"
+					android:layout_width="541dp"
+					android:layout_height="977dp" />
+
+
+				<RelativeLayout android:id="@+id/group_4_ek1"
+					android:layout_marginTop="49dp"
+					android:layout_marginStart="0dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					>
+
+					<View android:id="@+id/rectangle_1_ek1"
+						android:background="@drawable/rectangle_1_ek1_shape"
+						 android:alpha="0.89999997615814"
+						 android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="360dp"
+						android:layout_height="90dp" />
+
+					<ImageView android:id="@+id/brilhon_1_ek1"
+						android:src="@drawable/brilhon_1_ek1"
+						android:contentDescription="brilhon_1_ek1"
+						 android:layout_marginStart="10dp"
+						android:layout_marginTop="0dp"
+						android:layout_width="340dp"
+						android:layout_height="90dp" />
+
+				</RelativeLayout>
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
